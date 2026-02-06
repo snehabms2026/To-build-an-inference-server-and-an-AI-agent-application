@@ -1,0 +1,8 @@
+explain_task:
+  description: >
+    Explain the following concept clearly in one or two lines:
+    {topic}
+  expected_output: >
+    A clear, concise explanation of the concept.
+  agent: explainer_agent
+
