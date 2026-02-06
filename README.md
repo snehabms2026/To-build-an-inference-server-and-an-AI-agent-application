@@ -28,9 +28,16 @@ C:\Users\samru\
 
 4. cd simple_agent then // code .
 
-5. In the new window: simple_agent → src → simple_agent → config = edit agent.yaml and tasks.yaml
+5. In the new window: simple_agent → src → simple_agent → config = edit agent.yaml and tasks.yaml along with crew.py and main.py
 
-6. 
+6. Before running, confirm these are aligned:
+  agents.yaml contains: explainer_agent
+  tasks.yaml contains: explain_task using explainer_agent
+  crew.py has methods: explainer_agent() and explain_task()
+
+7.In main.py , kickoff() is significant becoz inputs → tasks → agent → LLM → output (read in detail) : crewai does this pipeline.
+
+8.
 
 
 
