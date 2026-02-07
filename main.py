@@ -1,12 +1,8 @@
-#!/usr/bin/env python
 from simple_agent.crew import SimpleAgent
-from datetime import datetime
 
-def run():
-    inputs = {
-        "topic": "What is an inference server?",
-        "current_year": str(datetime.now().year)
-    }
-
-    result = SimpleAgent().crew().kickoff(inputs=inputs)
+if __name__ == "__main__":
+    crew = SimpleAgent()
+    result = crew.crew().kickoff(
+        inputs={"topic": "What is an inference server?"}
+    )
     print("\nFinal Output:\n", result)
