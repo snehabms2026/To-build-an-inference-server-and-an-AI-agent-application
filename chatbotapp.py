@@ -62,3 +62,6 @@ def chatbot(req: ChatRequest):
 // uvicorn app:app --reload
 
 // then a url will appear then from here try out and see for endpoints of /chatbot and /chat (raw llm call).
+// json prompt for : /chat :  "prompt": "What is an inference server?"
+// json prompt for : /chatbot : "prompt": "Hello, who are you?"
+to see if it remmebers the previously asked question then do this prompt : "prompt": "What did I just ask you?"
