@@ -37,7 +37,9 @@ C:\Users\samru\
 
 7.In main.py , kickoff() is significant becoz inputs → tasks → agent → LLM → output (read in detail) : crewai does this pipeline.
 
-8.
+8. cd simple_agent, activate using : ./.venv/Sripts/activate
+9. python src/simple_agent/main.py // this gives the final output
+
 
 
 
